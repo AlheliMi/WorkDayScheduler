@@ -8,13 +8,13 @@ body {
 textarea{
   border: none;
   resize: none;
-  color: #000000;
+  color: rgb(37, 24, 93) ;
   border-left: 1px solid rgb(37, 24, 93);
   padding: 10px;
 }
 
 .jumbotron {
-  background-image: url("Assets/relojes.jpeg");
+  background-image: url("https://i.pinimg.com/564x/25/d0/bd/25d0bdec6939e57976a373a171441e37.jpg");
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   font-weight: bold;
