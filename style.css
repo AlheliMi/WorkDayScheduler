@@ -1,24 +1,28 @@
 body {
+  background-color: rgb(166, 208, 248);
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
 }
 
 textarea{
-  background: transparent;
   border: none;
   resize: none;
   color: #000000;
-  border-left: 1px solid black;
+  border-left: 1px solid rgb(37, 24, 93);
   padding: 10px;
 }
 
 .jumbotron {
+  background-image: url("Assets/relojes.jpeg");
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
+  font-weight: bold;
+  font-size: x-large;
   background-color: transparent;
-  color: black;
+  color: rgb(248, 128, 124);
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 10px solid rgb(112, 128, 221);
 }
 
 .description{
@@ -37,9 +41,9 @@ textarea{
 }
 
 .hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
+  background-color: rgb(151, 194, 243);
+  color: rgb(248, 128, 124);
+  border-top: 1px dashed rgb(37, 24, 93);
 }
 
 .past {
@@ -48,12 +52,12 @@ textarea{
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #f5aca8;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #8bebbb;
   color: white;
 }
 
@@ -61,7 +65,7 @@ textarea{
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: #65aaf8;
   color: white;
 }
 
